@@ -1,12 +1,12 @@
-document.getElementById('sheep_btn').addEventListener('click', nextColor)
-document.getElementById('img_toggle').addEventListener('click', toggleImage)
-document.getElementById('bkg_color').addEventListener('click', randBkgColor)
-document.getElementById('txt_toggle').addEventListener('click', toggleText)
+document.getElementById('sheep-btn').addEventListener('click', nextColor)
+document.getElementById('img-toggle').addEventListener('click', toggleImage)
+document.getElementById('bkg-color').addEventListener('click', randBkgColor)
+document.getElementById('txt-toggle').addEventListener('click', toggleText)
 const image = document.getElementById('image')
 const text = document.getElementById('text')
-var colorVal = 2
-var imgVisible = true
-var txtVisible = true
+let colorVal = 2
+let imgVisible = true
+let txtVisible = true
 
 function nextColor () {
   if (colorVal === 1) {
